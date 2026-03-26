@@ -1,0 +1,22 @@
+streamlit>=1.32.0
+flask>=3.0.0
+flask-cors>=4.0.0
+sqlalchemy>=2.0.0
+qrcode[pil]>=7.4.2
+Pillow>=10.0.0
+reportlab>=4.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# 语音识别（可选，需要ffmpeg）
+# openai-whisper>=20231117
+
+# 语音合成（可选）
+# pyttsx3>=2.90
+# edge-tts>=6.1.9
+
+# 麦克风录音（Streamlit插件）
+# streamlit-mic-recorder>=0.0.8
+
+# 可选：更好的中文分词
+# jieba>=0.42.1

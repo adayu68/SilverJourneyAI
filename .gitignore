@@ -1,0 +1,68 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 环境变量 / 密钥（严禁提交）
+.env
+.env.local
+.env.*.local
+*.env
+
+# 数据库文件（含用户数据，严禁提交）
+*.db
+*.sqlite
+*.sqlite3
+silverjourney/data/
+
+# 微信小程序私密配置（含 AppID 等，严禁提交）
+miniprogram/project.private.config.json
+
+# pytest 本地输出
+pytest_*.txt
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 内部工具 / 临时脚本
+gen_icons.py
+
+# Streamlit 缓存
+.streamlit/
+
+# 打包产物
+*.zip
+*.tar.gz
+
+# Node（若用到）
+node_modules/
